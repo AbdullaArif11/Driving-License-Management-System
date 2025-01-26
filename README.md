@@ -42,50 +42,83 @@ to take their physical licenses or documents.
 easier for drivers to comply with the law, and it will make it easier for traffic
 police to enforce the law.
 
-The Need for a DLMS:
+**The Need for a DLMS:**
 
 The current system of managing driving licenses and vehicle documents is inefficient and
 outdated. Drivers need to carry around their physical licenses and documents, which can
 be inconvenient and time-consuming. Traffic police also need to verify the driver's
 identity and check for outstanding fines manually, which can be time-consuming and
 prone to errors.
+
 The DLMS will address these inefficiencies by providing a centralized database of
 driving license and vehicle information. This database will be accessible to both drivers
 and traffic police, making it easy for them to verify the driver's identity and check for
 outstanding fines.
+
 The DLMS will also be more secure than the current system. The database will be
 password-protected, and all transactions will be logged. This will help to prevent fraud
 and ensure the integrity of the data.
+
 The Benefits of a DLMS:
+
 The DLMS will provide a number of benefits for both drivers and traffic police. For
 drivers, the DLMS will:
+
 • Eliminate the need to carry around physical licenses and documents.
+
 • Make it easy to access driving license and vehicle information from anywhere
 with an internet connection.
+
 • Allow drivers to update their driving license and vehicle information easily.
+
 For traffic police, the DLMS will:
+
 • Make it easier to verify the driver's identity.
+
 • Make it easier to check for outstanding fines.
+
 • Speed up the process of issuing citations or warnings to drivers.
+
 Design & Development
+
 Software Language: PHP
+
 File Management:
+
 Controller (Access Layer):
+
 • Super Admin Controller
+
 • Traffic Police Admin Controller
+
 • Traffic police user Controller
+
 Quarry and Model file:
+
 • Super Admin configuration:
+
 ✓ Vehicle Information
+
 ✓ Licence Information
+
 ✓ Traffic Admin Assign
+
 • User configuration
+
 • Traffic Admin configuration
+
 • Traffic Police configuration
+
 Database Design or Architecture:
+
 • Database: MySQL
+
 Technology:
+
 • Database: MySQL
+
 • UI / UIX: HTML5, CSS3, Tailwind CSS, Javascrift
+
 • Back – end: PHP
+
 • Web Server: Apache
