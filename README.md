@@ -59,7 +59,7 @@ The DLMS will also be more secure than the current system. The database will be
 password-protected, and all transactions will be logged. This will help to prevent fraud
 and ensure the integrity of the data.
 
-The Benefits of a DLMS:
+**The Benefits of a DLMS:**
 
 The DLMS will provide a number of benefits for both drivers and traffic police. For
 drivers, the DLMS will:
@@ -79,11 +79,11 @@ For traffic police, the DLMS will:
 
 • Speed up the process of issuing citations or warnings to drivers.
 
-Design & Development
+**Design & Development**
 
 Software Language: PHP
 
-File Management:
+**File Management:**
 
 Controller (Access Layer):
 
@@ -93,7 +93,7 @@ Controller (Access Layer):
 
 • Traffic police user Controller
 
-Quarry and Model file:
+**Quarry and Model file:**
 
 • Super Admin configuration:
 
@@ -109,11 +109,11 @@ Quarry and Model file:
 
 • Traffic Police configuration
 
-Database Design or Architecture:
+**Database Design or Architecture:**
 
 • Database: MySQL
 
-Technology:
+**Technology:**
 
 • Database: MySQL
 
@@ -122,3 +122,32 @@ Technology:
 • Back – end: PHP
 
 • Web Server: Apache
+
+
+**Features for Users:**
+
+Users can register and log in to access their driving license and vehicle information online.
+
+Eliminated the need for physical documents by allowing users to view, print, and update their data.
+
+**Features for Traffic Police:**
+
+Traffic police can log in to verify drivers' identities and check outstanding fines directly through the system.
+
+Enabled faster and error-free issuance of citations or warnings.
+
+**Features for Admins:**
+
+Admins can manage driving licenses, vehicle documents, and assign or update traffic police records.
+
+Provided tools for adding, updating, and deleting records in a secure and efficient database system.
+
+**System Workflow:**
+
+All data is stored in a centralized MySQL database, ensuring data consistency and security.
+
+Backend logic in PHP processes user inputs, performs authentication, and handles CRUD operations.
+
+Frontend built with HTML5, CSS3, and Tailwind CSS ensures a responsive and user-friendly interface.
+
+Streamlined communication between drivers and authorities, reducing paperwork and improving efficiency.
